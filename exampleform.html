@@ -1,0 +1,45 @@
+<html>
+<head>
+    <title>
+        Example form
+    </title>
+</head>
+<body>
+    <form novalidate>
+        <p>
+            <label for="firstname">First name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="John" maxlength="20"/>
+        </p>
+
+        <p>
+            <label for="lastname">Last name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="smith" maxlength="20"/>
+        </p>
+
+        <p>
+            <label for="email">Email address</label>
+            <input type="email" id="email" name="email" placeholder="your@email.address" maxlength="50"/>
+        </p>
+        <p>
+            <label for="telephone">Telephone number</label>
+            <input type="tel" name="telephone" id="telephone"/>
+        </p>
+        <p>
+            <label for="dob">date of birth</label>
+            <input type="date" name="dob" id="dob"/>
+        </p>
+        <fieldset>
+            <legend>Gender</legend>
+            <label>Male <input type="radio" name="gender" value="male"/> </label>
+            <label>Female <input type="radio" name="gender" value="female"/></label>
+            <label>Other <input type="radio" name="gender" value="other"/> </label>
+        </fieldset>
+        <p>
+            <label>
+                <input type="checkbox" name="newsletter"/>
+                Sign up for our newsletter
+            </label>
+        </p>
+    </form>
+</body>
+</html>
