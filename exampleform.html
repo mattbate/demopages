@@ -7,41 +7,43 @@
 </head>
 <body>
     <form novalidate class="container">
-        <p>
+        <p class="form-group">
             <label for="firstname">First name</label>
             <input type="text" id="firstname" name="firstname" placeholder="John" maxlength="20" class="form-control"/>
         </p>
 
-        <p>
+        <p class="form-group">
             <label for="lastname">Last name</label>
             <input type="text" id="lastname" name="lastname" placeholder="smith" maxlength="20"  class="form-control" />
         </p>
 
-        <p>
+        <p class="form-group">
             <label for="email">Email address</label>
             <input type="email" id="email" name="email" placeholder="your@email.address" maxlength="50" class="form-control"/>
         </p>
-        <p>
+        <p class="form-group">
             <label for="telephone">Telephone number</label>
             <input type="tel" name="telephone" id="telephone" class="form-control"/>
         </p>
-        <p>
+        <p class="form-group">
             <label for="dob">date of birth</label>
             <input type="date" name="dob" id="dob" class="form-control"/>
         </p>
+        <p class="form-group">
         <fieldset class="custom-control custom-radio">
             <legend>Gender</legend>
             <label class="custom-control-label"><input type="radio" name="gender" value="male" class="custom-control-input"/> Male </label>
             <label class="custom-control-label"><input type="radio" name="gender" value="female" class="custom-control-input"/> Female </label>
             <label class="custom-control-label"><input type="radio" name="gender" value="other" class="custom-control-input"/> Other</label>
         </fieldset>
-        <p>
+        </p>
+        <p class="form-group">
             <label>
                 <input type="checkbox" name="newsletter" class="custom-control-input"/>
                 Sign up for our newsletter
             </label>
         </p>
-        <p>
+        <p class="form-group">
             <button type="submit" class="btn btn-primary btn-lg btn-block">Save</button>
         </p>
     </form>
